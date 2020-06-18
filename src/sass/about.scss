@@ -1,0 +1,32 @@
+#about{
+    padding: 60px 0;
+    .about-info{
+        .section-title{
+            h4 {
+                color: #bfbdbd;
+                font-size: 10px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                margin-top: 0;
+                font-weight: bold;
+                line-height: inherit;
+                margin-bottom: 10px;
+            }
+            h2{
+                color: #353535;
+                font-size: 2em;
+                padding-bottom: 10px;
+                font-weight: bold;
+            }
+        }
+        .about-details{
+            p{
+                color: #757575;
+                font-size: 14px;
+                font-weight: normal;
+                line-height: 24px;
+                margin: 0 0 10px;
+            }
+        }
+    }
+}

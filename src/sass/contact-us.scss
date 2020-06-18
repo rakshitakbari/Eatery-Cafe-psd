@@ -1,0 +1,39 @@
+#contact{
+    padding: 60px 0;
+    overflow: hidden;
+  .section-title{
+      h2{
+        margin: 0;
+        color: #353535;
+        font-size: 2em;
+        padding-bottom: 10px;
+        font-weight: bold;
+      }
+  }
+  .contacform{
+     width: 100%;
+  }
+    .form-control {
+        background: transparent;
+        border: 0;
+        border-bottom: 1px solid #dddddd;
+        border-radius: 0;
+        box-shadow: none;
+        font-size: 14px;
+        font-weight: normal;
+        margin-bottom: 15px;
+        transition: all ease-in-out 0.4s;
+        height: 55px;
+    }
+    textarea.form-control {
+        height: auto;
+    }
+    button#cf-submit {
+        background: $theme-color;
+        border-radius: 0;
+        border: 0;
+        color: $white;
+        font-weight: bold;
+        height: 50px;
+    }
+}   
